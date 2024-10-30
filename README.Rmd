@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 options(tibble.print_min = 5, tibble.print_max = 5)
 ```
 
-# toxassay <a href="https://dplyr.tidyverse.org"><img src="man/figures/logo.png" align="right" height="138" /></a>
+# alva <a href="https://dplyr.tidyverse.org"><img src="man/figures/logo.png" align="right" height="138" /></a>
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/dplyr)](https://cran.r-project.org/package=dplyr)
@@ -31,7 +31,7 @@ options(tibble.print_min = 5, tibble.print_max = 5)
 * Development of optimized machine-learning classifiers for predicting the targeted toxicity in test samples of compounds.
 
 Workflow of ToxAssay in five main steps:
-<img src="man/figures/workflow.png" width="890"/>
+<img src="man/figures/alva_model.jpeg" width="890"/>
 
 ## Installation
 

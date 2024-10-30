@@ -1,0 +1,43 @@
+Package: alva
+Title: Prioritizing compound targets by perturbed gene expression using ALVA
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Md. Masud Rana", "Ringku", , "ringku_740@yahoo.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5468-6613"))
+    )
+Description: ALVA designed for identifying drug-target utilizing complex toxicogenomics 
+databases, including transcriptomic data from Open TG-GATEs and DrugMatrix.
+License: MIT + file LICENSE
+URL: https://github.com/ringku09/alva
+BugReports: https://github.com/ringku09/alva/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+LinkingTo: 
+    Rcpp
+Imports: 
+    affy,
+    AnnotationDbi,
+    Biobase,
+    cli,
+    dplyr,
+    glue,
+    httr,
+    igraph,
+    magrittr,
+    methods,
+    purrr,
+    rat2302.db,
+    Rcpp,
+    RcppEigen,
+    readr,
+    reshape2,
+    rlang,
+    scales,
+    STRINGdb,
+    tibble,
+    tidyr,
+    tidyselect
+Suggests: 
+    doParallel,
+    foreach

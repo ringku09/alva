@@ -16,7 +16,7 @@ coverage](https://codecov.io/gh/tidyverse/dplyr/branch/main/graph/badge.svg)](ht
 
 **alva** is an R package for identifying drug-target interaction genes using perturbation data.
 
-Workflow of ToxAssay in five main steps:
+Workflow of ALVA in five main steps:
 <img src="man/figures/alva_model.jpg" width="890"/>
 
 ## Installation
